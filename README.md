@@ -79,7 +79,8 @@ app.all('/uma/claims/collect', app.uma.claimsCollection());
 
 app.use(app.uma.errorHandler());
 
-app.listen(3000);```
+app.listen(3000);
+```
 
 ## Running tests
 
