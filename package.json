@@ -1,7 +1,7 @@
 {
   "name": "node-uma",
   "description": "Module for implementing an UMA-compliant (User-Managed Access) Server/Provider with Express in Node.js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "keywords": [
     "uma",
     "oauth",
