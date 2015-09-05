@@ -1,0 +1,52 @@
+{
+  "name": "node-uma",
+  "description": "Module for implementing an UMA-compliant (User-Managed Access) Server/Provider with Express in Node.js",
+  "version": "0.1.0",
+  "keywords": [
+    "uma",
+    "oauth",
+    "oauth2",
+    "openid",
+    "oidc"
+  ],
+  "author": {
+    "name": "Gianluca Brigandi",
+    "email": "gbrigand@josso.org"
+  },
+  "contributors": [
+    {
+      "name": "Gianluca Brigandi",
+      "email": "gbrigand@josso.org"
+    }
+  ],
+  "main": "lib/umaserver.js",
+  "dependencies": {
+    "basic-auth": "~0.0.1",
+    "q": "~0.9.6",
+    "jwt-simple": "~0.1.0",
+    "node-uuid": "~1.4.3"
+  },
+  "devDependencies": {
+    "body-parser": "~1.3.1",
+    "express": "~4.4.3",
+    "mocha": "~1.20.1",
+    "should": "~4.0.4",
+    "supertest": "~0.13.0"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atricore/node-uma.git"
+  }
+}
