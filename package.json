@@ -11,12 +11,12 @@
   ],
   "author": {
     "name": "Gianluca Brigandi",
-    "email": "gbrigand@josso.org"
+    "email": "gbrigand@gmail.com"
   },
   "contributors": [
     {
       "name": "Gianluca Brigandi",
-      "email": "gbrigand@josso.org"
+      "email": "gbrigand@gmail.com"
     }
   ],
   "main": "lib/umaserver.js",
