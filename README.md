@@ -36,7 +36,7 @@ Then consume UMA services (e.g. resource and policy management, etc.) on <http:/
 ```js
 var express = require('express'),
   bodyParser = require('body-parser'),
-  umaserver = require('./lib/umaserver'),
+  umaserver = require('node-uma'),
   memorystore = require('./models/memory/model.js');
 
 var app = express();
