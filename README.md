@@ -22,7 +22,7 @@ The module provides middlewares for serving UMA, OAuth2 and OpenID Connect use t
 
 Create the following "package.json" file.
 
-```js
+```json
 {
   "name": "my-uma-example",
   "description": "My UMA Example",
