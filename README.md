@@ -12,24 +12,11 @@ Install via npm:
 
 You can add it to your Connect or Express application as another middleware.
 
-The module provides middlewares for serving UMA, OAuth2 and OpenID Connect use them as you would any other middleware.
-
 -----
 
 ## Quick Start
 
-Within the root folder, run :
-
-    $ node uma
-
-Visit <http://localhost:3000/login> to gain access to
-<http://localhost:3000/secret> or use OAuth/OpenID Connect to obtain an access token as a code (default) or a token
-(in the URL hash):
-
-  - code: <http://localhost:3000/oidc/authorize?client_id=client&redirect_uri=http://localhost:8080/openid_connect_login>
-  - token: <http://localhost:3000/oidc/authorize?client_id=client&redirect_uri=http://localhost:8080/openid_connect_login&response_type=token>
-
-Then consume UMA services (e.g. resource and policy management, etc.) on <http://localhost:3000/uma> . 
+The module provides middlewares for serving UMA, OAuth2 and OpenID Connect use them as you would any other middleware :
 
 ## Example
 
@@ -81,6 +68,19 @@ app.use(app.uma.errorHandler());
 
 app.listen(3000);
 ```
+
+Run with NodeJS. For instance, if the example script is stored in the "uma.js" file, run :
+
+    $ node uma
+
+Visit <http://localhost:3000/login> to gain access to
+<http://localhost:3000/secret> or use OAuth/OpenID Connect to obtain an access token as a code (default) or a token
+(in the URL hash):
+
+  - code: <http://localhost:3000/oidc/authorize?client_id=client&redirect_uri=http://localhost:8080/openid_connect_login>
+  - token: <http://localhost:3000/oidc/authorize?client_id=client&redirect_uri=http://localhost:8080/openid_connect_login&response_type=token>
+
+Then consume UMA services (e.g. resource and policy management, etc.) on <http://localhost:3000/uma> . 
 
 ## Running tests
 
