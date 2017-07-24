@@ -18,6 +18,30 @@ You can add it to your Connect or Express application as another middleware.
 
 The module provides middlewares for serving UMA, OAuth2 and OpenID Connect use them as you would any other middleware :
 
+### Create project descriptor  
+
+Create the following "package.json" file.
+
+```js
+{
+  "name": "my-uma-example",
+  "description": "My UMA Example",
+  "version": "0.0.1",
+  "main": "uma.js",
+  "dependencies": {
+    "express": "~4.4.3",
+    "body-parser": "~1.3.1"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
+```
+
+Then fetch dependencies by running the following command :
+
+    $ npm install 
+    
 ### Define a model
 
 The UMA server requires both pulling and storing information, such as fetching user credentials or saving OAuth tokens. In order to do so, a specific object has to be exposed to the server. 
