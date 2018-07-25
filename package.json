@@ -23,7 +23,7 @@
   "dependencies": {
     "basic-auth": "~0.0.1",
     "q": "~0.9.6",
-    "jwt-simple": "~0.1.0",
+    "jwt-simple": "~0.3.0",
     "node-uuid": "~1.4.3"
   },
   "devDependencies": {
